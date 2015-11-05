@@ -13,7 +13,7 @@ WP Pretty Filters makes post filters better match what's already in Media & Atta
 ### What exactly does this target?
 
 ```
-.actions:not(.bulkactions)
+#posts-filter .tablenav.top .actions:not(.bulkactions)
 ```
 
 ### Where can I get support?
