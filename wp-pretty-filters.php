@@ -2,7 +2,7 @@
 
 /*
  * Plugin Name: WP Pretty Filters
- * Plugin URI:  http://wordpress.org/extend/plugins/wp-pretty-filters/
+ * Plugin URI:  http://wordpress.org/plugins/wp-pretty-filters/
  * Author:      John James Jacoby
  * Author URI:  http://jjj.me
  * Version:     0.1.0
