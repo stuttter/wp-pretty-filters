@@ -5,7 +5,7 @@
  * Plugin URI:  http://wordpress.org/plugins/wp-pretty-filters/
  * Author:      John James Jacoby
  * Author URI:  http://jjj.me
- * Version:     0.1.0
+ * Version:     0.1.1
  * Description: Makes post filters match Media & Attachments
  * License:     GPLv2 or later
  */
@@ -46,5 +46,5 @@ function wp_pretty_filters_get_plugin_url() {
  * @return int
  */
 function wp_pretty_filters_get_asset_version() {
-	return 201511050003;
+	return 201511180001;
 }

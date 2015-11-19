@@ -1,9 +1,9 @@
 === WP Pretty Filters ===
 Contributors: johnjamesjacoby, stuttter
-Tags: jquery, filter, select, chosen
+Tags: jquery, filter, select, filters
 Requires at least: 4.3
 Tested up to: 4.4
-Stable tag: 0.1.0
+Stable tag: 0.1.1
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=9Q4F4EL5YJ62J
 
 == Description ==
@@ -13,6 +13,7 @@ WP Pretty Filters makes post filters better match what's already in Media & Atta
 = Also checkout =
 
 * [WP Chosen](https://wordpress.org/plugins/wp-chosen/ "Make long, unwieldy select boxes much more user-friendly.")
+* [WP Reset Filters](https://wordpress.org/plugins/wp-reset-filters/ "Adds a 'Reset' button to filters.")
 * [WP Event Calendar](https://wordpress.org/plugins/wp-event-calendar/ "The best way to manage events in WordPress.")
 * [WP Term Meta](https://wordpress.org/plugins/wp-term-meta/ "Metadata, for taxonomy terms.")
 * [WP Term Order](https://wordpress.org/plugins/wp-term-order/ "Sort taxonomy terms, your way.")
@@ -55,6 +56,9 @@ The WordPress support forums: https://wordpress.org/support/plugin/wp-pretty-fil
 http://github.com/stuttter/wp-pretty-filters/
 
 == Changelog ==
+
+= 0.1.1 =
+* Support for Comments
 
 = 0.1.0 =
 * Initial release

@@ -1,13 +1,22 @@
 jQuery( document ).ready( function( $ ) {
     'use strict';
 
-	// Get the filters
-	var toptablenav = $( '#posts-filter .tablenav.top' ),
-		filters     = toptablenav.find( '.actions:not(.bulkactions)' );
+	// Look for posts
+	var toptablenav = $( '#posts-filter .tablenav.top' );
 
-	// Add a class for custom styling
-	filters.addClass( 'wp-pretty-filters' );
+	// Maybe try comments
+	if ( ! toptablenav.length ) {
+		toptablenav = $( '#comments-form .tablenav.top' );
+	}
 
-	// Relocate
-	toptablenav.before( filters );
+	// Only proceed if toptablenav was found
+	if ( toptablenav.length ) {
+		var filters = toptablenav.find( '.actions:not(.bulkactions)' );
+
+		// Add a class for custom styling
+		filters.addClass( 'wp-pretty-filters' );
+
+		// Relocate
+		toptablenav.before( filters );
+	}
 } );
