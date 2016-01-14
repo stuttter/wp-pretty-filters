@@ -15,6 +15,8 @@ jQuery( document ).ready( function( $ ) {
 
 		// Add a class for custom styling
 		filters.addClass( 'wp-pretty-filters' );
+		filters.addClass( 'dashicons-before' );
+		filters.addClass( 'dashicons-filter' );
 
 		// Relocate
 		toptablenav.before( filters );
