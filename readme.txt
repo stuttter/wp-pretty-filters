@@ -2,8 +2,8 @@
 Contributors: johnjamesjacoby, stuttter
 Tags: jquery, filter, select, filters
 Requires at least: 4.3
-Tested up to: 4.4
-Stable tag: 0.1.1
+Tested up to: 4.7
+Stable tag: 1.0.0
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=9Q4F4EL5YJ62J
 
 == Description ==
@@ -57,8 +57,12 @@ http://github.com/stuttter/wp-pretty-filters/
 
 == Changelog ==
 
-= 0.1.1 =
+= 1.0.0 - 2016/09/13 =
+* Chosen Support
+* Stable release
+
+= 0.1.1 - 2015/11/18 =
 * Support for Comments
 
-= 0.1.0 =
+= 0.1.0 - 2015/11/05 =
 * Initial release
