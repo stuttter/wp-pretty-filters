@@ -1,14 +1,19 @@
 <?php
 
-/*
+/**
  * Plugin Name: WP Pretty Filters
  * Plugin URI:  http://wordpress.org/plugins/wp-pretty-filters/
  * Author:      John James Jacoby
- * Author URI:  http://jjj.me
+ * Author URI:  https://jjj.me/
+ * License:     GPL v2 or later
+ * License URI: https://www.gnu.org/licenses/gpl-2.0.html
+ * Text Domain: wp-pretty-filters
  * Version:     1.0.0
  * Description: Makes post filters match Media & Attachments
- * License:     GPLv2 or later
  */
+
+// Exit if accessed directly
+defined( 'ABSPATH' ) || exit;
 
 /**
  * Enqueue scripts
@@ -35,7 +40,7 @@ add_action( 'admin_enqueue_scripts', '_wp_pretty_filters', 11 );
  * @return string
  */
 function wp_pretty_filters_get_plugin_url() {
-	return plugin_dir_url( __FILE__ );
+	return plugin_dir_url( __FILE__ ) . 'wp-pretty-filters/';
 }
 
 /**
