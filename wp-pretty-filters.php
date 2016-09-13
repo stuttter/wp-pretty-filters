@@ -51,5 +51,5 @@ function wp_pretty_filters_get_plugin_url() {
  * @return int
  */
 function wp_pretty_filters_get_asset_version() {
-	return 201609130001;
+	return 201609130002;
 }
