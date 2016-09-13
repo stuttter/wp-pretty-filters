@@ -17,3 +17,7 @@
 	color: #555;
 	font-size: 13px;
 }
+
+.wp-pretty-filters .chosen-container {
+	margin-right: 8px;
+}
