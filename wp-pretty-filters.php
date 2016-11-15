@@ -4,7 +4,7 @@
  * Plugin Name: WP Pretty Filters
  * Plugin URI:  http://wordpress.org/plugins/wp-pretty-filters/
  * Author:      John James Jacoby
- * Author URI:  https://jjj.me/
+ * Author URI:  https://jjj.blog/
  * License:     GPL v2 or later
  * License URI: https://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain: wp-pretty-filters
