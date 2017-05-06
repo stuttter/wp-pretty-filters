@@ -16,6 +16,12 @@
  * @since 0.1.0
  */
 function _wp_pretty_filters() {
+	global $wp_query;
+	
+	if ( $wp_query->post_count < 1 ) {
+		// Bail if there are no posts to filter
+		return;
+	}
 
 	// Vars
 	$url = wp_pretty_filters_get_plugin_url();
