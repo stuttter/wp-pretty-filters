@@ -1,22 +1,35 @@
 jQuery( document ).ready( function( $ ) {
     'use strict';
 
-	// Look for posts
-	var toptablenav = $( '#posts-filter .tablenav.top' );
+	// Look for top tablenav
+	var toptablenav = $( '.tablenav.top' );
 
-	// Maybe try comments
+	// Bail if no toptablenav
 	if ( ! toptablenav.length ) {
-		toptablenav = $( '#comments-form .tablenav.top' );
+		return;
 	}
 
-	// Only proceed if toptablenav was found
-	if ( toptablenav.length ) {
-		var filters = toptablenav.find( '.actions:not(.bulkactions)' );
+	// Look for actions that aren't bulk
+	var filters = toptablenav.find( '.actions:not(.bulkactions)' );
 
-		// Add a class for custom styling
-		filters.addClass( 'wp-pretty-filters' );
-
-		// Relocate
-		toptablenav.before( filters );
+	// Bail if no filters
+	if ( ! filters.length ) {
+		return;
 	}
+
+	// Add a class for custom styling
+	filters.addClass( 'wp-pretty-filters' );
+
+	// Relocate
+	toptablenav.before( filters );
+
+	// Hide if pretty filters is empty
+	if ( ! $.trim( filters.html() ) ) {
+		filters.hide();
+	}
+
+	// Maybe hide the users bottom tablenav
+	$( 'body.users-php .tablenav.bottom' )
+		.find( '.actions:not(.bulkactions)' )
+		.hide();
 } );

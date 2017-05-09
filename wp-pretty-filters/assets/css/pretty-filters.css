@@ -1,8 +1,6 @@
 .wp-pretty-filters {
-
 	float: none;
 	clear: both;
-
 	display: inline-block;
 	position: relative;
 	-webkit-box-sizing: border-box;
@@ -19,5 +17,10 @@
 }
 
 .wp-pretty-filters .chosen-container {
+	margin-right: 4px;
+}
+
+.wp-pretty-filters .chosen-container + input,
+.wp-pretty-filters .chosen-container + button {
 	margin-right: 8px;
 }

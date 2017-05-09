@@ -2,8 +2,8 @@
 Contributors: johnjamesjacoby, stuttter
 Tags: jquery, filter, select, filters
 Requires at least: 4.3
-Tested up to: 4.7
-Stable tag: 1.0.0
+Tested up to: 4.8
+Stable tag: 1.1.0
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=9Q4F4EL5YJ62J
 
 == Description ==
@@ -44,7 +44,7 @@ WP Pretty Filters makes post filters better match what's already in Media & Atta
 = What dropdowns does this target? =
 
 `
-#posts-filter .tablenav.top .actions:not(.bulkactions)
+.tablenav.top .actions:not(.bulkactions)
 `
 
 = Where can I get support? =
@@ -56,6 +56,12 @@ The WordPress support forums: https://wordpress.org/support/plugin/wp-pretty-fil
 http://github.com/stuttter/wp-pretty-filters/
 
 == Changelog ==
+
+= 1.1.0 - 2017/05/09 =
+* Support users, BuddyPress, and more
+* Hide secondary user role assignment
+* Hide pretty filters if empty
+* Load in wp_head to avoid DOM jitter
 
 = 1.0.0 - 2016/09/13 =
 * Chosen Support

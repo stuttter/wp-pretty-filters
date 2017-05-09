@@ -8,7 +8,7 @@
  * License:     GPL v2 or later
  * License URI: https://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain: wp-pretty-filters
- * Version:     1.0.0
+ * Version:     1.1.0
  * Description: Makes post filters match Media & Attachments
  */
 
@@ -27,8 +27,8 @@ function _wp_pretty_filters() {
 	$ver = wp_pretty_filters_get_asset_version();
 
 	// Styles
-	wp_enqueue_style(  'wp-pretty-filters', $url . 'assets/css/pretty-filters.css', array(),           $ver       );
-	wp_enqueue_script( 'wp-pretty-filters', $url . 'assets/js/pretty-filters.js',   array( 'jquery' ), $ver, true );
+	wp_enqueue_style(  'wp-pretty-filters', $url . 'assets/css/pretty-filters.css', array(),           $ver );
+	wp_enqueue_script( 'wp-pretty-filters', $url . 'assets/js/pretty-filters.js',   array( 'jquery' ), $ver );
 }
 add_action( 'admin_enqueue_scripts', '_wp_pretty_filters', 11 );
 
@@ -51,5 +51,5 @@ function wp_pretty_filters_get_plugin_url() {
  * @return int
  */
 function wp_pretty_filters_get_asset_version() {
-	return 201609130002;
+	return 201705090001;
 }
