@@ -1,19 +1,31 @@
+body.js #posts-filter .search-box:first-child,
+body.js .tablenav > .actions + .actions {
+	visibility: hidden;
+}
+
 .wp-pretty-filters {
 	float: none;
 	clear: both;
 	display: inline-block;
 	position: relative;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
 	box-sizing: border-box;
-	margin: 9pt 0 5px;
+	margin: 15px 0 5px;
 	padding: 10px;
 	width: 100%;
 	box-shadow: 0 1px 1px rgba(0, 0, 0, .04);
-	border: 1px solid #e5e5e5;
+	border: 1px solid #ccd0d4;
 	background: #fff;
 	color: #555;
 	font-size: 13px;
+}
+
+.wp-pretty-filters .search-box label {
+	margin: 0 .2em 0 0;
+	vertical-align: baseline;
+}
+
+.wp-pretty-filters .search-box input[name="s"] {
+	float: none;
 }
 
 .wp-pretty-filters .chosen-container {

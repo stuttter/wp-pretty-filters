@@ -10,7 +10,8 @@ jQuery( document ).ready( function( $ ) {
 	}
 
 	// Look for actions that aren't bulk
-	var filters = toptablenav.find( '.actions:not(.bulkactions)' );
+	var filters   = toptablenav.find( '.actions:not(.bulkactions)' ),
+		searchbox = $( 'p.search-box' );
 
 	// Bail if no filters
 	if ( ! filters.length ) {
@@ -22,6 +23,13 @@ jQuery( document ).ready( function( $ ) {
 
 	// Relocate
 	toptablenav.before( filters );
+
+	if ( searchbox.length ) {
+		filters.append( searchbox );
+		$( '#search-submit' ).hide();
+		searchbox.find( 'label' ).removeClass( 'screen-reader-text' );
+		searchbox.show();
+	}
 
 	// Hide if pretty filters is empty
 	if ( ! $.trim( filters.html() ) ) {

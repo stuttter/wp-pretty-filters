@@ -1,15 +1,15 @@
 <?php
 
-/**
- * Plugin Name: WP Pretty Filters
- * Plugin URI:  http://wordpress.org/plugins/wp-pretty-filters/
- * Author:      John James Jacoby
- * Author URI:  https://jjj.blog/
- * License:     GPL v2 or later
- * License URI: https://www.gnu.org/licenses/gpl-2.0.html
- * Text Domain: wp-pretty-filters
- * Version:     1.1.0
- * Description: Makes post filters match Media & Attachments
+/*
+ * Plugin Name:       WP Pretty Filters
+ * Plugin URI:        https://wordpress.org/plugins/wp-chosen/
+ * Author:            John James Jacoby
+ * Author URI:        https://jjj.blog
+ * Version:           2.0.0
+ * Requires at least: 5.3
+ * Requires PHP:      7.0
+ * Description:       Makes post filters match Media & Attachments
+ * License:           GPLv2 or later
  */
 
 // Exit if accessed directly
@@ -51,5 +51,5 @@ function wp_pretty_filters_get_plugin_url() {
  * @return int
  */
 function wp_pretty_filters_get_asset_version() {
-	return 201705090001;
+	return 202003090001;
 }
