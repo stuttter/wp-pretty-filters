@@ -6,6 +6,8 @@ Tested up to: 4.8
 Stable tag: 1.1.0
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=9Q4F4EL5YJ62J
 
+Make post filters match the Media and Attachments interface.
+
 == Description ==
 
 WP Pretty Filters makes post filters better match what's already in Media & Attachments.
