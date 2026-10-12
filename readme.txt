@@ -1,9 +1,12 @@
 === WP Pretty Filters ===
 Contributors: johnjamesjacoby, stuttter
 Tags: jquery, filter, select, filters
-Requires at least: 4.3
-Tested up to: 4.8
+Requires at least: 5.3
+Requires PHP: 7.0
+Tested up to: 7.1
 Stable tag: 1.1.0
+License: GPLv2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=9Q4F4EL5YJ62J
 
 Make post filters match the Media and Attachments interface.
