@@ -1,0 +1,8 @@
+{
+    "wp-pretty-filters.php|Generic.Functions.FunctionCallArgumentSpacing.TooMuchSpaceAfterComma": 2,
+    "wp-pretty-filters.php|PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket": 1,
+    "wp-pretty-filters.php|Squiz.Commenting.BlockComment.HasEmptyLineBefore": 1,
+    "wp-pretty-filters.php|Squiz.Commenting.FileComment.WrongStyle": 1,
+    "wp-pretty-filters.php|Squiz.Commenting.InlineComment.InvalidEndChar": 3,
+    "wp-pretty-filters.php|WordPress.WP.EnqueuedResourceParameters.NotInFooter": 1
+}
