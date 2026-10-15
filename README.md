@@ -18,7 +18,7 @@ WP Pretty Filters makes post filters better match what's already in Media & Atta
 
 ### Where can I get support?
 
-The WordPress support forums: https://wordpress.org/plugin/support/wp-pretty-filters/
+The WordPress support forums: https://wordpress.org/support/plugin/wp-pretty-filters/
 
 ### Can I contribute?
 

@@ -1,10 +1,10 @@
 === WP Pretty Filters ===
 Contributors: johnjamesjacoby, stuttter
 Tags: jquery, filter, select, filters
-Requires at least: 5.3
-Requires PHP: 7.0
+Requires at least: 6.4
+Requires PHP: 7.4
 Tested up to: 7.1
-Stable tag: 1.1.0
+Stable tag: 2.0.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=9Q4F4EL5YJ62J
@@ -58,9 +58,16 @@ The WordPress support forums: https://wordpress.org/support/plugin/wp-pretty-fil
 
 = Where can I find documentation? =
 
-http://github.com/stuttter/wp-pretty-filters/
+https://github.com/stuttter/wp-pretty-filters/
 
 == Changelog ==
+
+= 2.0.0 - 2026/10/15 =
+* Refresh styling for modern WordPress admin screens.
+* Move list-table search into the filter bar.
+* Avoid a deprecated jQuery helper.
+* Require WordPress 6.4 and PHP 7.4.
+* Correct plugin metadata.
 
 = 1.1.0 - 2017/05/09 =
 * Support users, BuddyPress, and more

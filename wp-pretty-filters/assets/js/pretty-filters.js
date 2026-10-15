@@ -1,5 +1,5 @@
 jQuery( document ).ready( function( $ ) {
-    'use strict';
+	'use strict';
 
 	// Look for top tablenav
 	var toptablenav = $( '.tablenav.top' );
@@ -32,7 +32,7 @@ jQuery( document ).ready( function( $ ) {
 	}
 
 	// Hide if pretty filters is empty
-	if ( ! $.trim( filters.html() ) ) {
+	if ( ! filters.html().trim() ) {
 		filters.hide();
 	}
 
