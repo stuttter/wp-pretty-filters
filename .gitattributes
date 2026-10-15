@@ -1,0 +1,8 @@
+/.gitattributes export-ignore
+/.github export-ignore
+/.gitignore export-ignore
+/AGENTS.md export-ignore
+/README.md export-ignore
+/composer.json export-ignore
+/composer.lock export-ignore
+/phpcs-baseline.json export-ignore
