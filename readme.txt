@@ -4,7 +4,7 @@ Tags: jquery, filter, select, filters
 Requires at least: 6.4
 Requires PHP: 7.4
 Tested up to: 7.1
-Stable tag: 2.0.0
+Stable tag: 2.0.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=9Q4F4EL5YJ62J
@@ -35,8 +35,8 @@ WP Pretty Filters makes post filters better match what's already in Media & Atta
 
 1. Posts
 2. Pages
-3. Events
-4. Downloads
+3. Media Library
+4. Responsive filters
 
 == Installation ==
 
@@ -61,6 +61,11 @@ The WordPress support forums: https://wordpress.org/support/plugin/wp-pretty-fil
 https://github.com/stuttter/wp-pretty-filters/
 
 == Changelog ==
+
+= 2.0.1 - 2026/10/15 =
+* Align filter and search controls across list tables and the Media Library.
+* Improve spacing and responsive wrapping for narrow administration screens.
+* Preserve accessible search labels while adding clearer placeholders and icons.
 
 = 2.0.0 - 2026/10/15 =
 * Refresh styling for modern WordPress admin screens.
