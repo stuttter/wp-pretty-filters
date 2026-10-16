@@ -6,33 +6,134 @@ body.js .tablenav > .actions + .actions {
 .wp-pretty-filters {
 	float: none;
 	clear: both;
-	display: inline-block;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: 8px;
 	position: relative;
 	box-sizing: border-box;
-	margin: 15px 0 5px;
-	padding: 10px;
+	margin: 12px 0 8px;
+	padding: 16px;
 	width: 100%;
 	box-shadow: 0 1px 1px rgba(0, 0, 0, .04);
-	border: 1px solid #ccd0d4;
+	border: 1px solid #c3c4c7;
 	background: #fff;
-	color: #555;
+	color: #1d2327;
 	font-size: 13px;
 }
 
-.wp-pretty-filters .search-box label {
-	margin: 0 .2em 0 0;
-	vertical-align: baseline;
+.wp-core-ui .wp-pretty-filters > select,
+.wp-core-ui .wp-pretty-filters > input,
+.wp-core-ui .wp-pretty-filters > button {
+	margin: 0;
+}
+
+.wp-core-ui .wp-pretty-filters > select,
+.wp-core-ui .wp-pretty-filters > input[type="submit"],
+.wp-core-ui .wp-pretty-filters > button,
+.wp-pretty-filters .search-box input[name="s"] {
+	height: 40px;
+	min-height: 40px;
+}
+
+.wp-pretty-filters > #post-query-submit,
+.wp-pretty-filters > #wp-reset-filters {
+	margin: 0;
+}
+
+.wp-pretty-filters .search-box {
+	float: none;
+	display: flex;
+	flex: 1 1 360px;
+	align-items: center;
+	gap: 8px;
+	margin: 0;
+	min-width: 360px;
 }
 
 .wp-pretty-filters .search-box input[name="s"] {
 	float: none;
+	margin: 0 0 0 auto;
+	padding-left: 36px;
+	width: min(280px, 100%);
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23646970' d='M10 4a6 6 0 1 0 3.87 10.59L19.28 20 20.7 18.59l-5.4-5.4A6 6 0 0 0 10 4Zm0 2a4 4 0 1 1 0 8 4 4 0 0 1 0-8Z'/%3E%3C/svg%3E");
+	background-position: 10px center;
+	background-repeat: no-repeat;
+	background-size: 18px 18px;
 }
 
 .wp-pretty-filters .chosen-container {
-	margin-right: 4px;
+	margin: 0;
 }
 
 .wp-pretty-filters .chosen-container + input,
 .wp-pretty-filters .chosen-container + button {
-	margin-right: 8px;
+	margin: 0;
+}
+
+.upload-php .media-frame .media-toolbar.wp-filter,
+.upload-php .media-frame .media-toolbar-secondary,
+.upload-php .media-frame .media-toolbar-primary {
+	align-items: center;
+}
+
+.upload-php .media-frame .media-toolbar-secondary {
+	gap: 8px;
+}
+
+.upload-php .media-frame .media-toolbar-secondary .view-switch,
+.wp-core-ui.upload-php .media-frame select.attachment-filters,
+.wp-core-ui.upload-php .media-frame button.select-mode-toggle-button {
+	margin: 0;
+}
+
+.wp-core-ui.upload-php .media-frame select.attachment-filters,
+.wp-core-ui.upload-php .media-frame button.select-mode-toggle-button,
+.wp-core-ui.upload-php .media-frame #media-search-input {
+	height: 40px;
+	min-height: 40px;
+}
+
+.upload-php .media-frame .media-toolbar-primary {
+	height: 40px;
+	margin: 7px 0;
+}
+
+.upload-php .media-frame #media-search-input {
+	margin: 0;
+	padding-left: 36px;
+	width: 280px;
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23646970' d='M10 4a6 6 0 1 0 3.87 10.59L19.28 20 20.7 18.59l-5.4-5.4A6 6 0 0 0 10 4Zm0 2a4 4 0 1 1 0 8 4 4 0 0 1 0-8Z'/%3E%3C/svg%3E");
+	background-position: 10px center;
+	background-repeat: no-repeat;
+	background-size: 18px 18px;
+}
+
+@media screen and (max-width: 782px) {
+	.wp-pretty-filters {
+		align-items: stretch;
+		gap: 8px;
+		padding: 12px;
+	}
+
+	.wp-pretty-filters > select,
+	.wp-pretty-filters > input,
+	.wp-pretty-filters > button {
+		flex: 1 1 160px;
+		max-width: none;
+	}
+
+	.wp-pretty-filters .search-box {
+		flex: 1 0 100%;
+		flex-wrap: wrap;
+		min-width: 0;
+	}
+
+	.wp-pretty-filters .search-box input[name="s"] {
+		width: 100%;
+	}
+
+	.upload-php .media-frame #media-search-input {
+		width: 100%;
+	}
 }
